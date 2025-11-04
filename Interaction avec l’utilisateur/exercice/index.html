@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+
+ul li:nth-child(odd) {
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+
+
+ul li:nth-child(even) {
+  color: rgb(253, 16, 16);
+  font-family: 'Courier New';
+}
+
+
+body{
+  background-color: lightgoldenrodyellow;
+}
+    </style>
+</head>
+<body>
+    <header>
+        Exercice 1
+    </header>
+    <main>
+
+            <input type="text" id="todoinput" placeholder="Enter a task" required>
+            <button id="add">Add Task</button>
+
+         <ul id="todolist" >  </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
